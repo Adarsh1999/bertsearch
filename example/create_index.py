@@ -20,3 +20,6 @@ if __name__ == '__main__':
     parser.add_argument('--index_name', default='jobsearch', help='Elasticsearch index name.')
     args = parser.parse_args()
     main(args)
+
+
+    # python create_index.py --index_file=example/index.json --index_name=jobsearch

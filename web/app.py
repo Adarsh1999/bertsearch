@@ -41,6 +41,7 @@ def analyzer():
         }
     )
     print(query)
+    print(response)
     pprint(response)
     return jsonify(response)
 
